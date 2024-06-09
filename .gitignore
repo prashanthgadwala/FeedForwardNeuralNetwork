@@ -161,114 +161,30 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Ignore macOS system files
+.DS_Store
 
- ../../../../../../../.CFUserTextEncoding
-        ../../../../../../../.DS_Store
-        ../../../../../../../.ServiceHub/
-        ../../../../../../../.Xauthority
-        ../../../../../../../.anyconnect
-        ../../../../../../../.aspnet/
-        ../../../../../../../.bash_history
-        ../../../../../../../.bundle/
-        ../../../../../../../.cache/
-        ../../../../../../../.cisco/
-        ../../../../../../../.config/
-        ../../../../../../../.dotnet/
-        ../../../../../../../.eclipse/
-        ../../../../../../../.gitconfig
-        ../../../../../../../.idlerc/
-        ../../../../../../../.ipynb_checkpoints/
-        ../../../../../../../.ipython/
-        ../../../../../../../.jupyter/
-        ../../../../../../../.keras/
-        ../../../../../../../.lemminx/
-        ../../../../../../../.lesshst
-        ../../../../../../../.local/
-        ../../../../../../../.matplotlib/
-        ../../../../../../../.npm/
-        ../../../../../../../.nuget/
-        ../../../../../../../.nvm/
-        ../../../../../../../.p2/
-        ../../../../../../../.profile.bak
-        ../../../../../../../.putty/
-        ../../../../../../../.pyenv/
-        ../../../../../../../.python_history
-        ../../../../../../../.redhat/
-        ../../../../../../../.sbt/
-        ../../../../../../../.sonarlint/
-        ../../../../../../../.spyder-py3/
-        ../../../../../../../.ssh/
-        ../../../../../../../.swiftpm/
-        ../../../../../../../.templateengine/
-        ../../../../../../../.thumbnails/
-        ../../../../../../../.vcpkg-clion/
-        ../../../../../../../.vcpkg/
-        ../../../../../../../.viminfo
-        ../../../../../../../.vscode/
-        ../../../../../../../.zcompdump
-        ../../../../../../../.zprofile.bak
-        ../../../../../../../.zprofile.macports-saved_2023-11-09_at_12:57:54
-        ../../../../../../../.zprofile.pysave
-        ../../../../../../../.zsh_history
-        ../../../../../../../.zsh_sessions/
-        ../../../../../../../.zshrc
-        ../../../../../../../.zshrc.save
-        ../../../../../../../Applications/
-        ../../../../../../../Desktop/
-        ../../../../../../.DS_Store
-        ../../../../../../.localized
-        ../../../../../../Algorithmic Toolbox/
-        ../../../../../../C++Basics/
-        ../../../../../../C++Basics1/
-        ../../../../../../CUB_CH250-A_C++Practice/
-        ../../../../../../CodeTON Round 8 (Div. 1 + Div. 2, Rated, Prizes!)/
-        ../../../../../../Embedded C++/
-        ../../../../../../First-steps-WiSe23-24-FAU-TF.pdf
-        ../../../../../../Introduction to Python/
-        ../../../../../../Kreyszig - Introductory Functional Analysis with Applications (1).pdf
-        ../../../../../../Lotto/
-        ../../../../../../MATLAB/
-        ../../../../../../Machine Learning 101/
-        ../../../../../../OneDrive
-        ../../../../../../Presentation of STOPT.key
-        ../../../../../../Python Course4/
-        ../../../../../.DS_Store
-        ../../../../../Semester1/
-        ../../../../.DS_Store
-        ../../../../Computational Dynamics/
-        ../../../.DS_Store
-        ../../.DS_Store
-        ../../.idea/
-        ../../exercise0_material/
-        ../../exercise2_material/
-        ../../exercise3_material/
-        ../../exercise4_material/
-        ../../../Lecture/
-        ../../../Previous Exams/
-        ../../../dl_zusammenfassung.pdf
-        ../../../../Material Modelling/
-        ../../../../NLKM/
-        ../../../../Optimization/
-        ../../../../Pattern Analysis/
-        ../../../../../../Use SSH keys to communicate with GitLab | GitLab.pdf
-        ../../../../../../WebsecurityChallenge/
-        ../../../../../../advpt/
-        ../../../../../../bonding copy.jpg
-        ../../../../../../job roles and skills.numbers
-        ../../../../../../kubera_yantra/
-        ../../../../../../studentform.pdf
-        ../../../../../../../Downloads/
-        ../../../../../../../IdeaProjects/
-        ../../../../../../../Library/
-        ../../../../../../../Movies/
-        ../../../../../../../Music/
-        ../../../../../../../Pictures/
-        ../../../../../../../Projects_Xcode/
-        ../../../../../../../Public/
-        ../../../../../../../PycharmProjects/
-        ../../../../../../../STSTOPSEMINAR/
-        ../../../../../../../eclipse-workspace/
-        ../../../../../../../iCloud Drive (Archive)/
-        ../../../../../../../ststop_pymma/
-        ../../../../../../../valgrind-3.22.0/
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.dll
+*.exe
+*.log
+*.log.*
+*.zip
+*.gz
+
+# Ignore package managers
+/node_modules/
+/bower_components/
+
+# Ignore environment files
+.env
+
 
